@@ -7,7 +7,11 @@ public class CombineStrings {
      * @param b the second part of the string to be combined.
      * @return the combination of strings a and b.
      */
-    public String combine(String a, String b){
-        return "";
+    public static void main(String[] args){
+        String str = combine("hello", "world");
+        System.out.println(str);
+    }
+    public static String combine(String a, String b){
+        return a+b;
     }
 }
